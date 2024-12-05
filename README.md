@@ -70,18 +70,18 @@ To reproduce our results follow the following steps:
 
 If you use this code or framework in your research, please cite our paper:
 
-> **Your Paper Title**  
-> Author Name(s)  
-> Conference/Journal Name, Year  
+> **An Integrated Cyber-Physical Framework for Worst-Case Attacks in Industrial Control Systems**  
+> Navid Aftabi, Dan Li, and Thomas C. Sharkey  
+> IISE Transaction, 2025  
 > [Link to the Paper](#)
 
 ### BibTeX
 ```bibtex
-@article{your_paper_key,
-  author    = {Your Author Names},
-  title     = {Your Paper Title},
-  journal   = {Journal or Conference Name},
-  year      = {Year},
+@article{paper_key,
+  author    = {Author Names},
+  title     = {An Integrated Cyber-Physical Framework for Worst-Case Attacks in Industrial Control Systems},
+  journal   = {IISE Transaction},
+  year      = {2025},
   volume    = {Volume},
   number    = {Issue},
   pages     = {Pages},
