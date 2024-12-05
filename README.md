@@ -20,41 +20,71 @@ Figure below shows the overall worst-case attack framework.
 ## Repository Structure
 ```
 Worstcase_Attacker/
-├── case_attack_graph.py          # Main script for for generating the attack graph for the case study on BWPP
 ├── sensitivity_analysis.py       # Sensitivity analysis implementation
 ├── solve_cyber.py                # Solving for the worst-case attack only looking at the cyber-system
 ├── solve_disjoint.py             # Solving for worst-case attack on the physical system considering the access gained from solve_cyber.py 
-├── solve_physical.py             # Solving for the worst-case attack only looking at the physical-system ([Biehler et al.](https://www.tandfonline.com/doi/abs/10.1080/24725854.2023.2184004))
-├── solve_scenario.py             # Solving for the worst-case attack on a pre-determined attack scenario ([Huang et al.](https://ieeexplore.ieee.org/abstract/document/8270567))
+├── solve_physical.py             # Solving for the worst-case attack only looking at the physical-system 
+├── solve_scenario.py             # Solving for the worst-case attack on a pre-determined attack scenario 
+├── solve_wa.py                   # Solves for the worst-case attack on numerical and case studies
 ├── model/                        # Main implementation of our framework and other experiments
 ├── simulation/                   # Simulation script
 ├── data/                         # Data for case study on BWPP and random scenarios
 ├── plots.ipynb                   # Notebook for plotting results included in the paper
 ```
 ## Setup and Installation
-1. Clone this repository:
+1. **Install Gurobi**:
+    This framework uses Gurobi Optimizer for solving optimization problems. To use Gurobi, you need to:
+    - Obtain a Gurobi license (free for academic use).
+    - Install the Gurobi software and Python package.
+
+    For detailed installation instructions, please visit the [Gurobi website](https://www.gurobi.com).
+2. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/Worstcase_Attacker.git
-    cd Worstcase_Attacker
+    git clone https://github.com/navidaftabi/WorstcaseAttacker.git
+    cd WorstcaseAttacker
     ```
-2. Install dependencies:
+3. Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
 
 ## Usage
-1. Run the scripts for generating results, e.g.:
-    ```bash
-    python case_attack_graph.py
-    ```
-2. Open `plots.ipynb` to visualize the results.
+To reproduce our results follow the following steps:
+1. Run `python solve_wa.py --experiment random` to solve for the worst-case attack across three types of numerical scenarion. Use `--generate` to create new random attack graphs; otherwise, the default graphs from the paper are used.
+
+2. Run `python solve_wa.py --experiment case` to solve for the worst-case attack the BWPP case study. Use `--generate` to create attack graph from `data/case/graph.txt`.
+
+3. Run `python sensitivity_analysis.py` to generate results of the sensitivity analysis.
+
+4. Run `python solve_cyber.py`, and then `python solve_disjoint.py` to solve for the worst-case attack with disjoint look.
+
+5. Run `python solve_physical.py` ([Biehler et al.](https://www.tandfonline.com/doi/abs/10.1080/24725854.2023.2184004)), and then `python solve_scenario.py` ([Huang et al.](https://ieeexplore.ieee.org/abstract/document/8270567)) to generate the results for the comparative experiment.
+    
+6. Open `plots.ipynb` to visualize the results.
 
 ## Data
-- **case/**: Contains data specific to a predefined case study.
+- **case/**: Contains data specific to a case study on BWPP ([Huang et al.](https://ieeexplore.ieee.org/abstract/document/8270567)).
 - **random/**: Includes randomly generated data for experimentation.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+## Cite Our Paper
 
-## Acknowledgments
-This project was developed as part of research on cyber-physical system security. For questions, please contact the authors.
+If you use this code or framework in your research, please cite our paper:
+
+> **Your Paper Title**  
+> Author Name(s)  
+> Conference/Journal Name, Year  
+> [Link to the Paper](#)
+
+### BibTeX
+```bibtex
+@article{your_paper_key,
+  author    = {Your Author Names},
+  title     = {Your Paper Title},
+  journal   = {Journal or Conference Name},
+  year      = {Year},
+  volume    = {Volume},
+  number    = {Issue},
+  pages     = {Pages},
+  doi       = {DOI or URL},
+}
+
