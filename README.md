@@ -72,19 +72,16 @@ If you use this code or framework in your research, please cite our paper:
 
 > **An Integrated Cyber-Physical Framework for Worst-Case Attacks in Industrial Control Systems**  
 > Navid Aftabi, Dan Li, and Thomas C. Sharkey  
-> IISE Transaction, 2025  
+> IISE Transactions, 2024 
 > [Link to the Paper](#)
 
 ### BibTeX
 ```bibtex
-@article{paper_key,
-  author    = {Author Names},
+@article{doi:10.1080/24725854.2024.2439856,
+  author    = {Aftabi,Navid and Li,Dan and Sharkey,Thomas},
   title     = {An Integrated Cyber-Physical Framework for Worst-Case Attacks in Industrial Control Systems},
-  journal   = {IISE Transaction},
-  year      = {2025},
-  volume    = {Volume},
-  number    = {Issue},
-  pages     = {Pages},
-  doi       = {DOI or URL},
+  journal   = {IISE Transactions},
+  year      = {2024},
+  doi       = {10.1080/24725854.2024.2439856},
 }
 
