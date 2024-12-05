@@ -35,7 +35,7 @@ Worstcase_Attacker/
 1. **Install Gurobi**:
     This framework uses Gurobi Optimizer for solving optimization problems. To use Gurobi, you need to:
     - Obtain a Gurobi license (free for academic use).
-    - Install the Gurobi software and Python package.
+    - Install Gurobi and Python package.
 
     For detailed installation instructions, please visit the [Gurobi website](https://www.gurobi.com).
 2. Clone this repository:
