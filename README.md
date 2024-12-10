@@ -1,7 +1,7 @@
 
 # Worstcase Attacker Framework
 
-This repository contains the implementation of the cyber-physical integrated worst-case cyberattack framework in industial cyber-physical systems. 
+This repository contains the implementation of ``[An Integrated Cyber-Physical Framework for Worst-Case Attacks in Industrial Control Systems](https://doi.org/10.1080/24725854.2024.2439856)". 
 The framework integrates attack graph models (representing the cyber system) with the linear time-invariant state-space model (representing the physical system dynamics) to evaluate the physical impact of attacks and identify critical vulnerabilities on the cyber system.
 The cyber-to-physical impact of a cyberattack is quantified by MTTF of the physical process using its degradation signal.
 For more details of this framework refer to our paper ``An Integrated Cyber-Physical Framework for Worst-Case Attacks in Industrial Control Systems."
@@ -72,16 +72,22 @@ If you use this code or framework in your research, please cite our paper:
 
 > **An Integrated Cyber-Physical Framework for Worst-Case Attacks in Industrial Control Systems**  
 > Navid Aftabi, Dan Li, and Thomas C. Sharkey  
-> IISE Transactions, 2024 
-> [Link to the Paper](#)
+> ISE Transactions, 1–26, 2024 
+> [Link to the Paper](https://doi.org/10.1080/24725854.2024.2439856)
 
 ### BibTeX
 ```bibtex
-@article{doi:10.1080/24725854.2024.2439856,
-  author    = {Aftabi,Navid and Li,Dan and Sharkey,Thomas},
-  title     = {An Integrated Cyber-Physical Framework for Worst-Case Attacks in Industrial Control Systems},
-  journal   = {IISE Transactions},
-  year      = {2024},
-  doi       = {10.1080/24725854.2024.2439856},
+@article{Aftabi09122024,
+    author = {Navid Aftabi, Dan Li and Thomas C. Sharkey},
+    title = {An Integrated Cyber-Physical Framework for Worst-Case Attacks in Industrial Control Systems},
+    journal = {IISE Transactions},
+    volume = {0},
+    number = {ja},
+    pages = {1--26},
+    year = {2024},
+    publisher = {Taylor \& Francis},
+    doi = {10.1080/24725854.2024.2439856},
+    URL = {https://doi.org/10.1080/24725854.2024.2439856},
+    eprint = {https://doi.org/10.1080/24725854.2024.2439856}
 }
 
