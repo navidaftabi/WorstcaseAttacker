@@ -1,7 +1,7 @@
 
 # Worstcase Attacker Framework
 
-This repository contains the implementation of "**[An Integrated Cyber-Physical Framework for Worst-Case Attacks in Industrial Control Systems]**(https://doi.org/10.1080/24725854.2024.2439856)". 
+This repository contains the implementation of "[An Integrated Cyber-Physical Framework for Worst-Case Attacks in Industrial Control Systems](https://doi.org/10.1080/24725854.2024.2439856)". 
 The framework integrates attack graph models (representing the cyber system) with the linear time-invariant state-space model (representing the physical system dynamics) to evaluate the physical impact of attacks and identify critical vulnerabilities on the cyber system.
 The cyber-to-physical impact of a cyberattack is quantified by MTTF of the physical process using its degradation signal.
 For more details of this framework refer to our paper ``An Integrated Cyber-Physical Framework for Worst-Case Attacks in Industrial Control Systems."
