@@ -71,7 +71,7 @@ To reproduce our results follow the following steps:
 
 If you use this code or framework in your research, please cite our paper:
 
-> Aftabi, N., Li, D., & Sharkey, T. C. (2025). An integrated cyber-physical framework for worst-case attacks in industrial control systems. IISE Transactions, 1–19. https://doi.org/10.1080/24725854.2024.2439856, [Link to the Paper](https://doi.org/10.1080/24725854.2024.2439856)
+> Aftabi, N., Li, D., & Sharkey, T. C. (2025). An integrated cyber-physical framework for worst-case attacks in industrial control systems. IISE Transactions, 1–19. https://doi.org/10.1080/24725854.2024.2439856
 
 ### BibTeX
 ```bibtex
