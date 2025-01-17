@@ -71,24 +71,21 @@ To reproduce our results follow the following steps:
 
 If you use this code or framework in your research, please cite our paper:
 
-> **An Integrated Cyber-Physical Framework for Worst-Case Attacks in Industrial Control Systems**  
-> Navid Aftabi, Dan Li, and Thomas C. Sharkey  
-> ISE Transactions, 1–26, 2024 
-> [Link to the Paper](https://doi.org/10.1080/24725854.2024.2439856)
+> Aftabi, N., Li, D., & Sharkey, T. C. (2025). An integrated cyber-physical framework for worst-case attacks in industrial control systems. IISE Transactions, 1–19. https://doi.org/10.1080/24725854.2024.2439856, [Link to the Paper](https://doi.org/10.1080/24725854.2024.2439856)
 
 ### BibTeX
 ```bibtex
-@article{Aftabi09122024,
-    author = {Navid Aftabi, Dan Li and Thomas C. Sharkey},
-    title = {An Integrated Cyber-Physical Framework for Worst-Case Attacks in Industrial Control Systems},
-    journal = {IISE Transactions},
-    volume = {0},
-    number = {ja},
-    pages = {1--26},
-    year = {2024},
-    publisher = {Taylor \& Francis},
-    doi = {10.1080/24725854.2024.2439856},
-    URL = {https://doi.org/10.1080/24725854.2024.2439856},
-    eprint = {https://doi.org/10.1080/24725854.2024.2439856}
+@article{Aftabi16012025,
+        author = {Navid Aftabi, Dan Li and Thomas C. Sharkey},
+        title = {An integrated cyber-physical framework for worst-case attacks in industrial control systems},
+        journal = {IISE Transactions},
+        volume = {0},
+        number = {0},
+        pages = {1--19},
+        year = {2025},
+        publisher = {Taylor \& Francis},
+        doi = {10.1080/24725854.2024.2439856},
+        URL = {https://doi.org/10.1080/24725854.2024.2439856},
+        eprint = {https://doi.org/10.1080/24725854.2024.2439856}
 }
 
